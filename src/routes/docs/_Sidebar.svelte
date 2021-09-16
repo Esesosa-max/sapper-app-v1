@@ -35,9 +35,6 @@
   <li>
     <h6 class="center-align">Table of Content</h6>
   </li>
-  <li>
-    <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
-  </li>
   {#if dataObj}
     {#each dataObj as data (data.id)}
       <li>
